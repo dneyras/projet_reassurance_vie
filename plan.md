@@ -57,7 +57,7 @@ Conclusion
 
 I. Introduction
 1.	Définition de la réassurance vie
-o	Qu'est-ce que la réassurance ?
+Qu'est-ce que la réassurance ?
 o	Spécificités de la réassurance vie par rapport à la réassurance générale.
 o	Pourquoi les assureurs ont recours à la réassurance (gestion des risques, stabilisation des résultats, protection contre les sinistres majeurs, etc.).
 2.	Présentation de Solvabilité 2
