@@ -53,7 +53,55 @@ Conclusion
     Importance de l'équilibre économique entre assureurs et réassureurs.
     Perspectives futures pour la réassurance sous Solvabilité II.
 
-### Proposition 2 chatGPT
+### Proposition 2 
+
+Introduction
+Présentation de Solvabilité II
+Origine et objectifs.
+Structure en trois piliers.
+Rôle de la réassurance dans le secteur de l’assurance
+Définition et utilité.
+Importance dans le contexte réglementaire.
+
+I. Les Fondements Réglementaires de Solvabilité II
+Les trois piliers de Solvabilité II
+Pilier I : Exigences quantitatives.
+Pilier II : Exigences qualitatives (gouvernance et gestion des risques).
+Pilier III : Reporting et transparence.
+Les modules de calcul des risques
+Risques sous-jacents étudiés (marché, souscription, contrepartie, opérationnels).
+Focus sur le SCR (Solvency Capital Requirement) et le MCR (Minimum Capital Requirement).
+
+II. La Réassurance comme Outil d’Optimisation sous Solvabilité II
+Réduction des exigences de capital
+Impact sur le SCR via le transfert de risques.
+Optimisation du capital de solvabilité à travers les stratégies de réassurance.
+Gestion des risques à travers la réassurance
+Typologies de risques transférés : souscription, catastrophiques, de marché.
+Rôle des traités proportionnels et non proportionnels.
+
+III. Évaluation des Risques en Réassurance selon Solvabilité II
+Risques spécifiques liés à la réassurance
+Risque de contrepartie (défaillance des réassureurs).
+Concentration et dépendance.
+Prise en compte dans les modèles internes et standards
+Modèle standard : traitement des cessions en réassurance.
+Modèles internes : intégration spécifique des risques de réassurance.
+
+IV. Le Rôle Stratégique de la Réassurance dans la Gouvernance et le Reporting
+Exigences qualitatives (Pilier II)
+Gouvernance autour des programmes de réassurance.
+Rôle des ORSA (Own Risk and Solvency Assessment) dans la planification stratégique.
+Reporting et transparence (Pilier III)
+Déclarations des cessions et récupérations en réassurance.
+Impact sur la communication financière et réglementaire.
+
+Conclusion
+Synthèse des bénéfices de la réassurance dans l’écosystème Solvabilité II.
+Perspectives et défis à venir (évolutions réglementaires, marchés émergents).
+Importance de l’innovation dans les solutions de réassurance.
+
+### Proposition 3 chatGPT
 
 I. Introduction
 1.	Définition de la réassurance vie
