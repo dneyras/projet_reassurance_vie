@@ -1,0 +1,61 @@
+\section*{Impact de la réassurance dans le calcul du SCR}
+
+La réassurance impacte plusieurs postes du SCR, en général en les diminuant, mais elle peut aussi en augmenter certains. Voici les principaux postes du SCR concernés par la réassurance :
+\begin{itemize}
+    \item Le module "Risque de contrepartie".
+    \item Les modules "Souscription Non-Vie" et "Santé non similaire à la vie", en particulier le sous-module "Risque de primes et réserves" et le sous-module "Risque Catastrophe".
+    \item Le module Risque de Marché
+\end{itemize}
+La réassurance réduit le SCR lié aux risques de souscription et de marché, mais augmente le SCR lié au risque de contrepartie. L'effet net de la réassurance sur le SCR global dépend de l'équilibre entre ces deux effets et de la qualité du réassureur. 
+
+
+L'effet de réduction du risque est calculé comme la différence entre l'exigence de capital sans réassurance et celle avec réassurance. 
+
+\subsection*{Module Risque de contrepartie}
+
+Bien que la réassurance vise à atténuer les risques de souscription, elle introduit un risque de contrepartie. En effet, en transférant une partie de ses risques à un réassureur, l'assureur s'expose au risque que le réassureur ne puisse pas honorer ses obligations contractuelles. Ce risque est intégré dans le module de risque de contrepartie du SCR.
+Le calcul du SCR de contrepartie inclut :
+        \begin{itemize}
+            \item Les \textbf{pertes en cas de défaut (LGD)} du réassureur.
+            \item La \textbf{probabilité de défaut} du réassureur.
+        \end{itemize}
+On rappelle que SCR de contrepartie est calculé comme suit :
+        \[
+        \text{SCR}_{\text{def}} = \sqrt{\text{SCR}^2_{\text{def,1}} + 1,5 \cdot \text{SCR}_{\text{def,1}} \cdot \text{SCR}_{\text{def,2}} + \text{SCR}^2_{\text{def,2}}}
+        \]
+La réassurance appartient aux contreparties de type 1 et la LGD pour un réassureur se calcule comme suit : 
+
+\[ LGD = max(0.5\times(REcoverables + 0.5\times RM_{re}) - F\times Collateral;0)\]
+où 
+\begin{itemize}
+    \item $REcoverables$  représente la meilleure estimation des montants recouvrables découlant du contrat de réassurance ou de la titrisation d'assurance ainsi que des dettes correspondantes;
+    \item $RM_{re}$ représente l'effet d'atténuation du risque qu'a le contrat de réassurance ou la titrisation sur le risque de souscription;
+    \item $Collateral$ représente la valeur pondérée des sûretés en ce qui concerne le contrat de réassurance ou de titrisation;
+    \item $F$ représente un facteur visant à tenir compte de l'effet économique du contrat de sûreté en ce qui concerne le contrat de réassurance ou la titrisation en cas d'événement de crédit concernant la contrepartie. 
+\end{itemize} 
+Le SCR de contrepartie dépend fortement de la notation (rating) du réassureur. Une notation plus faible augmente la probabilité de défaut, ce qui accroît le SCR de contrepartie.
+
+\subsection*{Module Risque de Souscription Non-Vie et Santé non similaire à la vie}
+
+\subsubsection*{Sous module Risque de primes et réserves}
+
+On rappelle que l'exigence de capital pour le risque de primes et de réserve en non-vie est calculée en utilisant une mesure de volume et un écart-type. La mesure de volume est calculée nette de réassurance, ce qui réduit l'exposition aux risques de primes et de réserves. De plus, l'écart-type intègre un ajustement pour la réassurance non proportionnelle, fixé à 80 \%. Ainsi, la réassurance influence directement le calcul du Solvabilité Capital Requirement (SCR) en atténuant les risques liés aux primes et aux réserves.
+
+\subsubsection*{Sous module Risque Catastrophe}
+
+Le sous-module dédié aux risques de catastrophe est également influencé par la réassurance. Pour les différents périls catastrophiques, une approche basée sur des scénarios est utilisée, reposant sur un ou deux événements simulés. 
+Dans un premier temps, des scénarios de sinistres sont élaborés sur une base "brute", c'est-à-dire sans tenir compte de la réassurance. Ensuite, le programme de réassurance est appliqué à ces scénarios. Chaque programme de réassurance étant spécifique, il n'existe pas de formule universelle pour passer du montant "brut" au montant "net". Par conséquent, il est nécessaire de simuler l'application des traités de réassurance afin d'estimer précisément l'impact sur la charge finale. Ainsi, la réassurance contribue à réduire l'impact financier du sous-module catastrophe.
+
+\subsection*{Module Risque de marché}
+
+Lorsqu'une entreprise d'assurance cède une partie de ses risques à un réassureur, elle transfère également une partie des actifs correspondants, appelés provisions techniques cédées. Ces actifs, qui peuvent inclure des obligations, des actions ou d'autres instruments financiers, sont alors retirés du bilan de l'assureur et enregistrés comme créances de réassurance. Ce transfert modifie la composition du portefeuille d'actifs de l'assureur, influençant ainsi son exposition aux différents risques de marché.
+
+En transférant ces actifs, l'entreprise d'assurance réduit son exposition à certains risques de marché. Par exemple, si les actifs transférés incluent des actions, l'assureur sera moins affecté par les fluctuations des marchés boursiers. De même, une réduction de l'exposition aux obligations atténuera l'impact des variations des taux d'intérêt sur son bilan.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{bilan.png}
+    \caption{Enter Caption}
+    \label{fig:enter-label}
+\end{figure}
+
