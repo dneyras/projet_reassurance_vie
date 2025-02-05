@@ -1,0 +1,19 @@
+\section{L'impact de la Réassurance Vie sur le Bilan}
+La réassurance modifie significativement la structure du bilan d’un assureur en influençant à la fois les actifs et les passifs. Lorsqu’un assureur cède une partie de son portefeuille à un réassureur, plusieurs postes du bilan sont ajustés. 
+
+Au niveau de l’\textbf{actif}, une nouvelle ligne appelée \textbf{créance sur réassureur} apparaît. Cette créance correspond à la part des engagements transférés au réassureur, représentant le \textbf{Best Estimate Liability (BEL) cédé}. 
+
+Au niveau du \textbf{passif}, le \textbf{BEL net} diminue, puisque l’assureur ne conserve qu’une partie de ses engagements après réassurance. La \textbf{Risk Margin (RM)} est également réduite, car le risque global supporté par l’assureur est allégé. Enfin, un \textbf{passif envers le réassureur} peut être inscrit, correspondant aux primes de réassurance dues ou aux montants récupérables sur les sinistres futurs. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{Impact_S2}
+    \caption{50\% QS sous Solvabilité 2}
+    \label{fig:impact_S2}
+\end{figure}
+
+Nous constatons une amélioration ratio de solvabilité (S2) grâce à la réduction du SCR, car le SCR diminue plus que les fonds propres.
+
+En conclusion, la réassurance sous Solvabilité 2 permet une optimisation du capital en réduisant le SCR. Toutefois, le SCR cédé est remplacé par un SCR de contrepartie, qui dépend de la qualité financière du réassureur.
+
+
